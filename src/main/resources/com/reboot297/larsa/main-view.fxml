@@ -9,6 +9,11 @@
     <children>
         <MenuBar>
             <menus>
+                <Menu mnemonicParsing="false" text="Device">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="List" onAction="#onListDevicesClick"/>
+                    </items>
+                </Menu>
                 <Menu mnemonicParsing="false" text="Help">
                     <items>
                         <MenuItem mnemonicParsing="false" text="About" onAction="#onHelpAboutClick"/>

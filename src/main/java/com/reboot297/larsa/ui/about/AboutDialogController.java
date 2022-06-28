@@ -1,4 +1,4 @@
-package com.reboot297.larsa;
+package com.reboot297.larsa.ui.about;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

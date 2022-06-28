@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.geometry.Insets?>
 <AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.reboot297.larsa.AboutDialogController">
+            fx:controller="com.reboot297.larsa.ui.about.AboutDialogController">
     <children>
         <GridPane>
             <padding>
