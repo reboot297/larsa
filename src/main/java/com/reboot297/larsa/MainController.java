@@ -1,4 +1,4 @@
-package com.reboot297.elam;
+package com.reboot297.larsa;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

@@ -5,7 +5,7 @@ plugins {
     id 'org.beryx.jlink' version '2.24.1'
 }
 
-group 'com.reboot297.elam'
+group 'com.reboot297.larsa'
 version '0.1.0-SNAPSHOT'
 
 repositories {
@@ -24,8 +24,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'com.reboot297.elam'
-    mainClass = 'com.reboot297.elam.MainApplication'
+    mainModule = 'com.reboot297.larsa'
+    mainClass = 'com.reboot297.larsa.MainApplication'
 }
 
 javafx {
