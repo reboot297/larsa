@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.reboot297.larsa.AboutDialogController">
+    <children>
+        <GridPane>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+            </padding>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0"/>
+            </columnConstraints>
+            <children>
+                <Label text="Larsa" GridPane.columnIndex="0">
+                    <font>
+                        <Font name="System Bold" size="13.0"/>
+                    </font>
+                </Label>
+                <Label text="version:" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="System Bold" size="13.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="appVersionLabel" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                <Label text="author:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="System Bold" size="13.0"/>
+                    </font>
+                </Label>
+                <Label text="Viktor Pop" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+                <Label text="email:" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="System Bold" size="13.0"/>
+                    </font>
+                </Label>
+                <Label text="reboot297@gmail.com" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+                <Label text="source:" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                    <font>
+                        <Font name="System Bold" size="13.0"/>
+                    </font>
+                </Label>
+                <Label text="https://www.github.com/reboot297/larsa" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>
